@@ -31,7 +31,7 @@ function submitToTrello(e) {
   if (MailApp.getRemainingDailyQuota() > 0) {
 
     // Trello email address goes here
-    var email = "codewith4+p87m46yth5iiml8senzu@boards.trello.com";
+    var email = "";
 
     // Subject line will be the title of the event on Trello card
     var subject = latestItemResponses[0].getResponse();
